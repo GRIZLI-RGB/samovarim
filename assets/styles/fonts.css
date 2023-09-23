@@ -1,0 +1,113 @@
+/* Quicksand */
+
+@font-face {
+    font-family: 'Quicksand';
+    src: local('Quicksand Light'), local('Quicksand-Light'),
+    url('./../fonts/Quicksand/Quicksand-Light.woff2') format('woff2'),
+    url('./../fonts/Quicksand/Quicksand-Light.woff') format('woff'),
+    url('./../fonts/Quicksand/Quicksand-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: local('Quicksand Regular'), local('Quicksand-Regular'),
+    url('./../fonts/Quicksand/Quicksand-Regular.woff2') format('woff2'),
+    url('./../fonts/Quicksand/Quicksand-Regular.woff') format('woff'),
+    url('./../fonts/Quicksand/Quicksand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: local('Quicksand Medium'), local('Quicksand-Medium'),
+    url('./../fonts/Quicksand/Quicksand-Medium.woff2') format('woff2'),
+    url('./../fonts/Quicksand/Quicksand-Medium.woff') format('woff'),
+    url('./../fonts/Quicksand/Quicksand-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: local('Quicksand SemiBold'), local('Quicksand-SemiBold'),
+    url('./../fonts/Quicksand/Quicksand-SemiBold.woff2') format('woff2'),
+    url('./../fonts/Quicksand/Quicksand-SemiBold.woff') format('woff'),
+    url('./../fonts/Quicksand/Quicksand-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: local('Quicksand Bold'), local('Quicksand-Bold'),
+    url('./../fonts/Quicksand/Quicksand-Bold.woff2') format('woff2'),
+    url('./../fonts/Quicksand/Quicksand-Bold.woff') format('woff'),
+    url('./../fonts/Quicksand/Quicksand-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Comfortaa */
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: local('Comfortaa Light'), local('Comfortaa-Light'),
+    url('./../fonts/Comfortaa/Comfortaa-Light.woff2') format('woff2'),
+    url('./../fonts/Comfortaa/Comfortaa-Light.woff') format('woff'),
+    url('./../fonts/Comfortaa/Comfortaa-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: local('Comfortaa Regular'), local('Comfortaa-Regular'),
+    url('./../fonts/Comfortaa/Comfortaa-Regular.woff2') format('woff2'),
+    url('./../fonts/Comfortaa/Comfortaa-Regular.woff') format('woff'),
+    url('./../fonts/Comfortaa/Comfortaa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: local('Comfortaa Medium'), local('Comfortaa-Medium'),
+    url('./../fonts/Comfortaa/Comfortaa-Medium.woff2') format('woff2'),
+    url('./../fonts/Comfortaa/Comfortaa-Medium.woff') format('woff'),
+    url('./../fonts/Comfortaa/Comfortaa-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: local('Comfortaa SemiBold'), local('Comfortaa-SemiBold'),
+    url('./../fonts/Comfortaa/Comfortaa-SemiBold.woff2') format('woff2'),
+    url('./../fonts/Comfortaa/Comfortaa-SemiBold.woff') format('woff'),
+    url('./../fonts/Comfortaa/Comfortaa-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: local('Comfortaa Bold'), local('Comfortaa-Bold'),
+    url('./../fonts/Comfortaa/Comfortaa-Bold.woff2') format('woff2'),
+    url('./../fonts/Comfortaa/Comfortaa-Bold.woff') format('woff'),
+    url('./../fonts/Comfortaa/Comfortaa-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

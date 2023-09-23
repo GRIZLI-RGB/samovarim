@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>SAMOVARIM</title>
+
+	<!-- [FAVICON] -->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- [STYLES] -->
+	<link rel="stylesheet" href="/assets/styles/fonts.css">
+	<link rel="stylesheet" href="/assets/styles/header.css">
+	<link rel="stylesheet" href="/assets/styles/global.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__top">
+				<!-- [> 1200px] -->
+				<div class="header__top-left">
+					<a href="/">
+						<img src="/assets/images/logos/logo-249x72.png" alt="Логотип SAMOVARIM" />
+					</a>
+					<div class="search">
+						<div class="search__dropdown">
+							Найти
+							<img src="/assets/images/icons/other/arrow-down-blue.svg"
+								alt="Стрелочка открытия меню поиска">
+						</div>
+						<div class="search__verticalLine"></div>
+						<div class="search__enter">
+							<input class="search__enter-input" placeholder="Что Вы ищете?" type="text" />
+							<img src="/assets/images/icons/other/search.svg" alt="Иконка поиска">
+						</div>
+					</div>
+				</div>
+				<div class="header__top-right">
+					<div class="dropdownLocation">
+						<img src="/assets/images/icons/other/map-point.svg" alt="Иконка местоположения">
+						<p class="dropdownLocation__text">Москва</p>
+						<img src="/assets/images/icons/other/arrow-down-gray.svg"
+							alt="Стрелочка открытия списка локалий">
+					</div>
+					<nav class="header__top-right-menu">
+						<a class="header__top-right-menu-link" href="#">
+							<div class="header__top-right-menu-link-img"><img src="/assets/images/icons/24x24/user.svg"
+									alt="Иконка профиля" /></div>
+							<span class="header__top-right-menu-link-text">Профиль</span>
+						</a>
+						<a class="header__top-right-menu-link" href="#">
+							<div class="header__top-right-menu-link-img"><img src="/assets/images/icons/24x24/heart.svg"
+									alt="Иконка избранного" />
+								<div class="header__top-right-menu-link-img-number">
+									5
+								</div>
+							</div>
+							<span class="header__top-right-menu-link-text">Избранное</span>
+
+						</a>
+						<a class="header__top-right-menu-link" href="#">
+							<div class="header__top-right-menu-link-img"><img src="/assets/images/icons/24x24/cart.svg"
+									alt="Иконка корзины" />
+								<div class="header__top-right-menu-link-img-number">
+									4
+								</div>
+							</div>
+							<span class="header__top-right-menu-link-text">Корзина</span>
+
+						</a>
+					</nav>
+				</div>
+
+				<!-- [<= 1200px] -->
+				<a class="header__top-mobileLogo" href="/">
+					<img src="/assets/images/logos/logo-125x35.png" alt="Логотип SAMOVARIM" />
+				</a>
+				<img class="header__top-mobileButton" style="cursor: pointer;" src="/assets/images/icons/other/menu.svg" alt="Мобильное меню" />
+			</div>
+			<div class="header__bottom">
+				<div class="dropdownPink" id="dropdown" data-open="false ">
+					<div class="dropdownPink__title">
+						<img src="assets/images/icons/other/items.svg" alt="Иконка выпадающего меню">
+						<p class="dropdownPink__title-text">Категории</p>
+						<img src="assets/images/icons/other/arrow-down-white.svg" id="dropdown-arrow"
+							alt="Стрелочка открытия выпадающего меню">
+					</div>
+					<div class="dropdownPink__content" id="dropdown-content">
+						<div class="dropdownPink__content-tags">
+							<div class="dropdownPink__content-tags-tag dropdownPink__content-tags-tag--yellow">Новинки
+							</div>
+							<div class="dropdownPink__content-tags-tag dropdownPink__content-tags-tag--blue">Популярное
+							</div>
+							<div class="dropdownPink__content-tags-tag dropdownPink__content-tags-tag--red">Скидки</div>
+						</div>
+						<ul class="dropdownPink__content-categories">
+							<li class="dropdownPink__content-categories-category">Хлеб и выпечка
+								<img src="/assets/images/icons/other/arrow-right.svg"
+									alt="Стрелочка открытия категории">
+							</li>
+							<li class="dropdownPink__content-categories-category">Популярное
+							</li>
+							<li class="dropdownPink__content-categories-category">Сыры
+								<img src="/assets/images/icons/other/arrow-right.svg"
+									alt="Стрелочка открытия категории">
+							</li>
+							<li class="dropdownPink__content-categories-category">Полуфабрикаты
+								<img src="/assets/images/icons/other/arrow-right.svg"
+									alt="Стрелочка открытия категории">
+							</li>
+							<li class="dropdownPink__content-categories-category">Мясо
+								<img src="/assets/images/icons/other/arrow-right.svg"
+									alt="Стрелочка открытия категории">
+							</li>
+							<li class="dropdownPink__content-categories-category">ЗОЖ
+								<img src="/assets/images/icons/other/arrow-right.svg"
+									alt="Стрелочка открытия категории">
+							</li>
+							<li class="dropdownPink__content-categories-category">Мясная гастрономия
+								<img src="/assets/images/icons/other/arrow-right.svg"
+									alt="Стрелочка открытия категории">
+							</li>
+							<li class="dropdownPink__content-categories-category">Сладости
+								<img src="/assets/images/icons/other/arrow-right.svg"
+									alt="Стрелочка открытия категории">
+							</li>
+							<li class="dropdownPink__content-categories-category">Рыба и морепродукты
+								<img src="/assets/images/icons/other/arrow-right.svg"
+									alt="Стрелочка открытия категории">
+							</li>
+							<li class="dropdownPink__content-categories-category">Консервация
+								<img src="/assets/images/icons/other/arrow-right.svg"
+									alt="Стрелочка открытия категории">
+							</li>
+							<li class="dropdownPink__content-categories-category">Бакалея
+								<img src="/assets/images/icons/other/arrow-right.svg"
+									alt="Стрелочка открытия категории">
+							</li>
+							<li class="dropdownPink__content-categories-category">Напитки
+								<img src="/assets/images/icons/other/arrow-right.svg"
+									alt="Стрелочка открытия категории">
+							</li>
+						</ul>
+						<div class="dropdownPink__content-more">
+							<div class="dropdownPink__content-more-box">
+								<img src="/assets/images/icons/24x24/add.svg" alt="Иконка плюсика">
+								<p class="dropdownPink__content-more-box-text">Посмотреть все</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<nav class="header__bottom-menu">
+					<a href="#" class="header__bottom-menu-link">Главная</a>
+					<a href="#" class="header__bottom-menu-link">О нас</a>
+					<a href="#" class="header__bottom-menu-link">Фудмастера</a>
+					<a href="#" class="header__bottom-menu-link">Сотрудничество</a>
+					<a href="#" class="header__bottom-menu-link">Блог</a>
+					<a href="#" class="header__bottom-menu-link">Оплата и доставка</a>
+				</nav>
+			</div>
+		</div>
+
+		<!-- [<= 1200px] -->
+		<div class="header__mobileMenu">
+			<div class="header__mobileMenu-title">
+				<h6 class="header__mobileMenu-title-text">Меню</h6>
+				<img class="header__mobileMenu-title-closeMenu" style="cursor: pointer;" src="/assets/images/icons/other/close.svg" alt="Закрытие меню"/>
+			</div>
+			<div class="header__mobileMenu-horizontalLine"></div>
+			<nav class="header__mobileMenu-menu">
+				<a href="#" class="header__mobileMenu-menu-link">
+					<img src="/assets/images/icons/24x24/writing-pen.svg" alt="Иконка блога"/> Блог
+				</a>
+				<a href="#" class="header__mobileMenu-menu-link">
+					<img src="/assets/images/icons/24x24/writing-pen.svg" alt="Иконка блога"/> Блог
+				</a>
+				<a href="#" class="header__mobileMenu-menu-link">
+					<img src="/assets/images/icons/24x24/writing-pen.svg" alt="Иконка блога"/> Блог
+				</a>
+				<a href="#" class="header__mobileMenu-menu-link">
+					<img src="/assets/images/icons/24x24/writing-pen.svg" alt="Иконка блога"/> Блог
+				</a>
+				<a href="#" class="header__mobileMenu-menu-link">
+					<img src="/assets/images/icons/24x24/writing-pen.svg" alt="Иконка блога"/> Блог
+				</a>
+				<a href="#" class="header__mobileMenu-menu-link">
+					<img src="/assets/images/icons/24x24/writing-pen.svg" alt="Иконка блога"/> Блог
+				</a>
+				<a href="#" class="header__mobileMenu-menu-link">
+					<img src="/assets/images/icons/24x24/writing-pen.svg" alt="Иконка блога"/> Блог
+				</a>
+				<a href="#" class="header__mobileMenu-menu-link">
+					<img src="/assets/images/icons/24x24/writing-pen.svg" alt="Иконка блога"/> Блог
+				</a>
+				<a href="#" class="header__mobileMenu-menu-link">
+					<img src="/assets/images/icons/24x24/writing-pen.svg" alt="Иконка блога"/> Блог
+				</a>
+			</nav>
+		</div>
+	</header>
+
+	<!-- [SCRIPTS] -->
+	<script src="/assets/libs/jquery/jquery-3.7.1.min.js"></script>
+	<script src="/assets/scripts/main.js"></script>
+</body>
+
+</html>

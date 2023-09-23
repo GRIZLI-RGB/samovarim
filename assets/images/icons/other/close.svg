@@ -1,0 +1,13 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="streamline:interface-delete-circle-button-delete-remove-add-circle-buttons" clip-path="url(#clip0_456_18559)">
+<g id="Group">
+<path id="Vector" d="M19.5388 10.457L10.4531 19.5427M10.4531 10.457L19.5388 19.5427" stroke="#B6B6B6" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M14.9989 28.9284C22.6914 28.9284 28.9275 22.6924 28.9275 14.9999C28.9275 7.30732 22.6914 1.07129 14.9989 1.07129C7.30635 1.07129 1.07031 7.30732 1.07031 14.9999C1.07031 22.6924 7.30635 28.9284 14.9989 28.9284Z" stroke="#B6B6B6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_456_18559">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>
